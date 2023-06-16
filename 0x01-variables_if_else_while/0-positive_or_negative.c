@@ -8,21 +8,21 @@
  */
 int main(void)
 {
-int o;
+int n;
 srand(time(0));
-o = rand() - RAND_MAX / 2;
+n = rand() - RAND_MAX / 2;
 /* your code goes there */
-if (o > 0)
+if (n > 0)
 {
-printf("%d is positive\n", o);
+printf("%d is positive\n", n);
 }
-if (o < 0)
+if (n < 0)
 {
-printf("%d is negative\n", o);
+printf("%d is negative\n", n);
 }
-if (o == 0)
+if (n == 0)
 {
-printf("%d is zero\n", o);
+printf("%d is zero\n", n);
 }
 return (0);
 }
