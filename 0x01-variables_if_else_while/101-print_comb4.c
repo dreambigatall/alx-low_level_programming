@@ -19,24 +19,24 @@
 int main(void)
 {
 	int c;
-	int n;
-	int f= 0;
+	int d;
+	int e = 0;
 
-	while (f < 10)
+	while (e < 10)
 	{
-		n = 0;
-		while (n < 10)
+		d = 0;
+		while (d < 10)
 		{
 			c = 0;
 			while (c < 10)
 			{
-				if (c != n && n != f && f < n && n < c)
+				if (c != d && d != e && e < d && d < c)
 				{
-					putchar('0' + f);
-					putchar('0' + n);
+					putchar('0' + e);
+					putchar('0' + d);
 					putchar('0' + c);
 
-					if (c + n + f != 9 + 8 + 7)
+					if (c + d + e != 9 + 8 + 7)
 					{
 						putchar(',');
 						putchar(' ');
@@ -45,9 +45,9 @@ int main(void)
 
 				c++;
 			}
-			n++;
+			d++;
 		}
-		f++;
+		e++;
 	}
 	putchar('\n');
 	return (0);
