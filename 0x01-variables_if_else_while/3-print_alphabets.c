@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 /**
  * main - main block
  * Description:  prints the alphabet in lowercase,
@@ -7,20 +7,20 @@ include <stdio.h>
  */
 int main(void)
 {
-	char l = 'a';
+	char c = 'a';
 
-	while (l <= 'z')
+	while (c <= 'z')
 	{
-		putchar(l);
-		l++;
+		putchar(c);
+		c++;
 	}
 
-	l = 'A';
+	c = 'A';
 
-	while (l <= 'Z')
+	while (c <= 'Z')
 	{
-		putchar(l);
-		L++;
+		putchar(c);
+		c++;
 	}
 
 	putchar('\n');
