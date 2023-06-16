@@ -7,19 +7,19 @@ nclude <stdio.h>
  */
 int main(void)
 {
-	char L = 'a';
+	char l = 'a';
 
-	while (L <= 'z')
+	while (l <= 'z')
 	{
-		putchar(L);
-		L++;
+		putchar(l);
+		l++;
 	}
 
-	L = 'A';
+	l = 'A';
 
-	while (L <= 'Z')
+	while (l <= 'Z')
 	{
-		putchar(L);
+		putchar(l);
 		L++;
 	}
 
