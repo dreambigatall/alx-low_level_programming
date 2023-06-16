@@ -21,3 +21,5 @@ int main(void)
 		g++;
 	}
 	putchar('\n');
+	return (0);
+}
