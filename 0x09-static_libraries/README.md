@@ -1,1 +1,1 @@
-practice library de stat
+just static lib
